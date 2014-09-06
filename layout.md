@@ -1,2 +1,2 @@
-opgave 7.tex
+opgave 7f.tex
 opgave7g.tex
