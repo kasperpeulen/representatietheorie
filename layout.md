@@ -20,3 +20,4 @@ opgave 8b.tex
 Opgave 8c.tex
 Opgave 8d.tex
 Opgave 8d*.tex
+Opgave 8e.tex
