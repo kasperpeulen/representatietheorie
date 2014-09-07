@@ -17,3 +17,4 @@ opgave 7f.tex
 opgave7g.tex
 Opgave 8a.tex
 opgave 8b.tex
+Opgave 8c.tex
