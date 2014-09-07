@@ -1,0 +1,10 @@
+\opgave{3b}{Suppose $A:U\to V$ with $U$ and $V$ finite dimensional vector space with ordered basis $E:=(e_1,...,e_n)$ for $U$ and $F:=(f_1,...,f_m)$ for $V$. Prove that matrix of $A^t$ with respect to the basis $F^*$ and $E^*$ is the transpose of the matrix of $A$ with respect to $E$ and $F$.}
+
+Observe that $([A]_E^F)_{ij}=f_i^*Ae_j$ and $([A^t]_{F^*}^{E^*})_{ij}=e_i^{**}A^tf_j^*$. And that $([A]_E^F)^\top_{ij}=f_j^*Ae_i$. We need to show that:
+\[e_i^{**}A^tf_j^*=f_j^*Ae_i\]
+By definition $f_j^*Ae_i=A^t(f_j^*)(e_i)$, so we need to show that:
+\[e_i^{**}(A^tf_j^*)=A^t(f_j^*)(e_i)\]
+We can prove this equality if we can show that:
+\[e_i^{**}(\phi)=\phi(e_i) \quad \forall \phi \in E^*\] 
+We only need to check the equality for the basis vectors $(e_1^*,...,e_n^*)$. This equality follows now as:
+\[e_i^{**}(e_j^*)=\delta_{ij}=\delta_{ij}=e_j^*(e_i)\]
