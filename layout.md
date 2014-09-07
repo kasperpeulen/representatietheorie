@@ -5,5 +5,6 @@ Opgave 2a.tex
 Opgave 2b.tex
 Opgave 3a.tex
 Opgave 3b.tex
+Opgave 4a.tex
 opgave 7f.tex
 opgave7g.tex
