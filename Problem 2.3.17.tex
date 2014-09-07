@@ -1,2 +1,8 @@
 \thm{Problem 2.3.17}{Let $A$ be an associative algebra, and let $V$ be a representation of $A$. By $\End_A(V)$ one denotes the algebra of all homomorphisms of representations $V \to V$. Show that $\End_A(A) = A^{op}$. }
 
+Suppose that $\phi: A \to A$ is a homomorphism of representations. Then $\phi(ab)=a\phi(b)$.
+And therefore $\phi(a)=\phi(a\cdot 1)=a\phi(1)$. So $\phi(1)$ fixes the map. No let's define the algebra homomorphism $\i : A^{op} \to \End_A(A) $ as $a \mapsto (\phi_a: A\to A: b \mapsto ba)$. Clearly, this map is surjective as $\phi(1)$ must be in $A$. Say $ba = ca$, then $b=c$, so $i$ is bijective.
+
+We need to show that  $\phi_{a\cdot b}=\phi_a \phi_b$, where $\cdot$ is opposite multiplication. So this is equivalent with:
+\[\phi_{a\cdot b}c = \phi_a \phi_b(c) \quad \forall c \in A \]
+Let $c\in A$. Then $\phi_{a\cdot b}c = c(a\cdot b)=cba$ and $\phi_a \cdot \phi_b (c)= cba$.
