@@ -12,5 +12,6 @@ Opgave 7a.tex
 Opgave 7b.tex
 Opgave 7c.tex
 Opgave 7d.tex
+Opgave 7e.tex
 opgave 7f.tex
 opgave7g.tex
