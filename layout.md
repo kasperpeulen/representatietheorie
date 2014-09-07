@@ -15,3 +15,4 @@ Opgave 7d.tex
 Opgave 7e.tex
 opgave 7f.tex
 opgave7g.tex
+Opgave 8a.tex
