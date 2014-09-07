@@ -8,5 +8,6 @@ Opgave 3b.tex
 Opgave 4a.tex
 Opgave 4b.tex
 Opgave 4c.tex
+Opgave 7a.tex
 opgave 7f.tex
 opgave7g.tex
