@@ -1,6 +1,18 @@
 \opgave{8c}{Let $V$ be a finite dimensional $k$-vector space and let $A \in \End_k(V)$. Show that $V$ admits a unique $k[X]$-module structure such that $X.v = A(v)$ for all $v\in V$}
 
 So we need to show there is only way to define $f.v$ if $X.v=Av$ for all $v \in V$. But because of the properties of the action (induced by the ring homomorphism) and because of the linearity of this action, we get:
-\[f.v=(\sum_{i=0}^n a_i X^i).v = \sum_{i=0}^n a_i (X.v)^i = \sum_{i=0}^n a_i (A(v))^i \]
 
-So there is only one way to define this action.
+\begin{align*}
+f.v &= (\sum_{i=0}^n a_i X^i).v \\
+&= \sum_{i=0}^n (a_i X^i).v \\
+&= \sum_{i=0}^n a_i (X^i).v \\
+&= \sum_{i=0}^n a_i A^iv
+\end{align*}
+
+Note that the following are true:
+
+\begin{align*}
+(a+b).v = a.v + b.v \\
+(\alpha a).v = \alpha (a.v) \\
+(X^i).v = X^{i-1}(X.v) \\
+\end{align*}
