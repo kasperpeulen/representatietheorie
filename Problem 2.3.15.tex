@@ -1,6 +1,6 @@
 \section*{Week 2}
 
 \thm{Problem 2.3.15}{Let $V$ be a nonzero finite dimensional representation of an algebra $A$. Show that it has an irreducible subrepresentation. Then show by example that this does not always hold for infinite dimensional representations.}
-
 If $V$ is irreducible, then we are done. If it is reducible, then there exists a subrepresentation $W$. As this subrepresentation is a subspace, $\dim(W) < \dim (V)$. If $W$ is irreducible, then we are done, if it is reducible, we continue the process. We are sure that this process will stop once, as all 1-dimensional subrepresentations are irreducible.
 
+Note that any $k[X]$ is an infinite dimensional algebra. And if we take the regular representation, then this representation is also infinite. What are the subrepresentations of $k[X]$ ? In this case $\rho(a)$ is just left multiplication so if $\rho(a)W \subset W$ then $W$ is an ideal. And as $k[X]$ is PID, this ideal is of the form $(p)$ for some $p \in k[X]$. The question is now, does this ideal has an subrepresentation ? If we take $f \in (p^2)$, then $f= gp^2= (gp)p$, so $(p^2)\subset (p)$, and is therefore a subrepresentation. 
