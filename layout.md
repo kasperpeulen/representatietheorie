@@ -25,3 +25,4 @@ Opgave 8f.tex
 Problem 2.3.15.tex
 Problem 2.3.17.tex
 Opgave 1c1.tex
+Opgave 1d.tex
