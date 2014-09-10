@@ -7,4 +7,12 @@ Or equivalently, $(a-k_1).v=0$, for all $v \in V$.
 So we need to show that there exists  a $k_1$ such that $\rho(a)=k_1I$.
 
 In other words, we need to show that $\rho(a)$ is a scalar matrix, for any $a \in Z(A)$. 
-We define $\rho(a)=A$, and we know that $AB=BA$ for every $B=\rho(b)$ where $b\in A$. 
+We define $\rho(a)=X$, and we know that $XB=BX$ for every $B=\rho(b)$ where $b\in A$. 
+
+We can use schur's lemma, if $X$ is a interwining operator. Note that:
+
+$X(a.v)=(Xa).v=aX.v$ as $X$ commutes with all elements.
+
+Finally, the part about $\chi$ being a homomorphism comes directly from the defintion of representation.  We need to show that if $a,a'\in Z(A)$, then $\chi_V(aa') = \chi_V(a)\chi_V(a')$.
+
+But by definition, $$\chi_V(aa')I = \rho(aa') = \rho(a)\rho(a') = \chi_V(a)I \chi_V(a')I = \chi_V(a)\chi_V(a')I. $$
